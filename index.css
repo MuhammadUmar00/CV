@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style-position: inside;
+}
+
+body {
+    /* background-color: grey; */
+}
+
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+main {
+    background-color: gray;
+}
+
+.main-wrapper {
+    max-width: 580px;
+    background-color: white;
+    margin: 20px  auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.icon {
+    width: 100%;
+    height: 100%;
+}
+
+.ic-paper-plane, .ic-email, .ic-phone {
+    width: 12px;
+    height: 12px;
+}
+
+.personal-info {
+    /* padding-left: 10px; */
+    justify-content: space-between;
+    align-items: center;
+ }
+
+
+.ic-text {
+    margin-left: 5px;
+}
+
+.grid {
+    display: inline-grid;
+    grid-template-columns: auto 1fr;
+    height: 200px;
+    column-gap: 10px;
+ }
+
+ .grid1 {
+    background-color: white;
+}
+
+.grid2 {
+    display: grid;
+    background-color: white;
+    justify-items: right;
+ }
+
+ .colored-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: lightskyblue;
+ }
+
+ .grid2 > .content > section > .content-title {
+    align-items: center;
+    margin: 10px 10px;
+}
+
+.grid1 > .content > section > .content-title {
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+ }
+
+ .content-block {
+    /* background-color: red; */
+    margin-left: 20px;
+ }
+
+ .project-block-content, .edu-block-tile, .eh-block-tile, .social-block-tile, .lang-block-tile, .skill-block-tile {
+    margin: 20px 0px;
+ }
+
+ .side-bar {
+    width: 5px;
+    background-color: green;
+ }
+
+ progress, ::-webkit-progress-value {
+    background: lightskyblue ;
+    height: 5px;
+    border-radius: 100px;
+ }
+
+ .circle-title {
+    margin-left: 5px;
+ }
+
+ .profile-pic {
+    width:100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-right: 50px;
+ }
+
+ 
