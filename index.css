@@ -84,10 +84,16 @@ main {
     width: 30px;
     height: 30px;
     border-radius: 100%;
-    background-color: lightskyblue;
+    background-color: #89cff0;
+ }
+ .secondary-colored-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #ffafa6;
  }
 
- .grid2 > .content > section > .content-title {
+ .grid2 > .content > section > .content-title, #content-title {
     align-items: center;
     margin: 10px 10px;
 }
@@ -110,11 +116,11 @@ main {
 
  .side-bar {
     width: 5px;
-    background-color: green;
+    background-color: #bdbec0;
  }
 
  progress, ::-webkit-progress-value {
-    background: lightskyblue ;
+    background: #bdbec0 ;
     height: 5px;
     border-radius: 100px;
  }
